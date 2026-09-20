@@ -356,7 +356,7 @@
             "AdaptSpeed": 2.5,
             "AdaptationRange": [
                 -2.0,
-                -1.0
+                -0.5
             ],
             "ExposureCompensation": 0.0,
             "HighPercent": 0.8999999761581421,

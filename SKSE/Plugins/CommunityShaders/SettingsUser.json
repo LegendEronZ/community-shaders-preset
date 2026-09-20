@@ -187,18 +187,18 @@
   },
   "vlGammaOffset": 0.0,
   "water": {
-   "brightness": 1.0,
+   "brightness": 0.75,
    "causticsDispersion": 1.0,
    "causticsSpeed": 1.0,
    "causticsStrength": 1.0,
    "causticsTiling": 1.0,
-   "fresnelMax": 1.0,
+   "fresnelMax": 0.8500000238418579,
    "fresnelMin": 0.0,
    "muddiness": 1.0,
    "parallaxQuality": 16,
    "parallaxStrength": 1.0,
-   "reflectionAmount": 1.0,
-   "refractionAmount": 1.0,
+   "reflectionAmount": 0.75,
+   "refractionAmount": 0.75,
    "sunSpecularMultiplier": 1.0,
    "waveAmplitude": 1.0
   },
@@ -372,7 +372,7 @@
   "EnableSelfShadow": 1,
   "EnableTangentShift": 1,
   "Enabled": 1,
-  "HairGlossiness": 60.0,
+  "HairGlossiness": 65.0,
   "HairMode": 1,
   "HairSaturation": 1.0,
   "PrimaryTangentShift": 0.5,
@@ -394,16 +394,17 @@
   "ExteriorAmbientFloor": 0.20000000298023224,
   "ExteriorDALCAmount": 0.0,
   "ExteriorEnvIBLSaturation": 1.0,
-  "ExteriorEnvIBLScale": 0.75,
+  "ExteriorEnvIBLScale": 0.3499999940395355,
   "ExteriorSkyIBLSaturation": 0.3499999940395355,
   "ExteriorSkyIBLScale": 1.0,
   "FogAmount": 0.30000001192092896,
-  "InteriorDALCAmount": 0.10000000149011612,
+  "InteriorAmbientFloor": 0.25,
+  "InteriorDALCAmount": 0.0,
   "InteriorEnvIBLSaturation": 1.0,
-  "InteriorEnvIBLScale": 1.7999999523162842,
+  "InteriorEnvIBLScale": 1.0,
   "InteriorSkyIBLSaturation": 1.0,
   "InteriorSkyIBLScale": 1.0,
-  "PreserveFogLuminance": 0,
+  "PreserveFogLuminance": 1,
   "UseStaticIBL": 1
  },
  "Interior Sun": {
@@ -475,9 +476,9 @@
  },
  "Linear Lighting": {
   "ambientMult": 1.100000023841858,
-  "enableACEScg": 0,
+  "enableACEScg": 1,
   "enableLinearLighting": 1,
-  "vanillaDiffuseColorMult": 1.75
+  "vanillaDiffuseColorMult": 1.25
  },
  "Menu": {
   "AutoHideFeatureList": false,
@@ -884,7 +885,7 @@
     "AdaptSpeed": 2.5,
     "AdaptationRange": [
      -2.0,
-     -1.0
+     -0.5
     ],
     "ExposureCompensation": 0.0,
     "HighPercent": 0.8999999761581421,
