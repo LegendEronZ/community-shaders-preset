@@ -350,15 +350,17 @@
         "enabled": true,
         "settings": {
             "AdaptArea": [
-                0.6600000262260437,
-                0.6600000262260437
+                0.75,
+                0.75
             ],
-            "AdaptSpeed": 2.5999999046325684,
+            "AdaptSpeed": 2.5,
             "AdaptationRange": [
-                -3.0,
+                -2.0,
                 -1.0
             ],
             "ExposureCompensation": 0.0,
+            "HighPercent": 0.8999999761581421,
+            "LowPercent": 0.10000000149011612,
             "PurkinjeMaxEV": -4.0,
             "PurkinjeStartEV": -1.5,
             "PurkinjeStrength": 0.0

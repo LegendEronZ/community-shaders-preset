@@ -6,6 +6,7 @@
   "Dump Shaders": false,
   "Frame Annotations": false,
   "Log Level": 2,
+  "Native Menu": false,
   "Partial Precision": false,
   "Refraction Scale": 1.0,
   "Shader Defines": "",
@@ -227,12 +228,12 @@
   "presetLocation": ""
  },
  "Exponential Height Fog": {
-  "cubemapMipLevel": 7.0,
-  "directionalInscatteringAnisotropy": 0.20000000298023224,
-  "directionalInscatteringMultiplier": 1.0,
+  "cubemapMipLevel": 5.0,
+  "directionalInscatteringAnisotropy": 0.08900000154972076,
+  "directionalInscatteringMultiplier": 1.5299999713897705,
   "disableVanillaFog": 1,
   "enabled": 0,
-  "fogDensity": 0.004999999888241291,
+  "fogDensity": 0.07999999821186066,
   "fogHeight": 0.0,
   "fogHeightFalloff": 0.20000000298023224,
   "fogInscatteringColor": [
@@ -248,7 +249,7 @@
    1.0
   ],
   "originalFogColorAmount": 0.0,
-  "respectVanillaFogFade": 1,
+  "respectVanillaFogFade": 0,
   "startDistance": 0.0,
   "sunlightAttenuationAmount": 1.0,
   "useDynamicCubemaps": 1,
@@ -371,7 +372,7 @@
   "EnableSelfShadow": 1,
   "EnableTangentShift": 1,
   "Enabled": 1,
-  "HairGlossiness": 75.0,
+  "HairGlossiness": 60.0,
   "HairMode": 1,
   "HairSaturation": 1.0,
   "PrimaryTangentShift": 0.5,
@@ -390,18 +391,19 @@
   "DisableInLoadingScreen": true,
   "DisableInWorldMap": true,
   "EnableIBL": 1,
+  "ExteriorAmbientFloor": 0.20000000298023224,
   "ExteriorDALCAmount": 0.0,
   "ExteriorEnvIBLSaturation": 1.0,
   "ExteriorEnvIBLScale": 0.75,
   "ExteriorSkyIBLSaturation": 0.3499999940395355,
-  "ExteriorSkyIBLScale": 1.5,
-  "FogAmount": 1.0,
+  "ExteriorSkyIBLScale": 1.0,
+  "FogAmount": 0.30000001192092896,
   "InteriorDALCAmount": 0.10000000149011612,
   "InteriorEnvIBLSaturation": 1.0,
-  "InteriorEnvIBLScale": 2.0,
+  "InteriorEnvIBLScale": 1.7999999523162842,
   "InteriorSkyIBLSaturation": 1.0,
   "InteriorSkyIBLScale": 1.0,
-  "PreserveFogLuminance": 1,
+  "PreserveFogLuminance": 0,
   "UseStaticIBL": 1
  },
  "Interior Sun": {
@@ -475,7 +477,7 @@
   "ambientMult": 1.100000023841858,
   "enableACEScg": 0,
   "enableLinearLighting": 1,
-  "vanillaDiffuseColorMult": 2.0
+  "vanillaDiffuseColorMult": 1.75
  },
  "Menu": {
   "AutoHideFeatureList": false,
@@ -876,15 +878,17 @@
    "enabled": true,
    "settings": {
     "AdaptArea": [
-     0.6600000262260437,
-     0.6600000262260437
+     0.75,
+     0.75
     ],
-    "AdaptSpeed": 2.5999999046325684,
+    "AdaptSpeed": 2.5,
     "AdaptationRange": [
-     -3.0,
+     -2.0,
      -1.0
     ],
     "ExposureCompensation": 0.0,
+    "HighPercent": 0.8999999761581421,
+    "LowPercent": 0.10000000149011612,
     "PurkinjeMaxEV": -4.0,
     "PurkinjeStartEV": -1.5,
     "PurkinjeStrength": 0.0
@@ -1372,6 +1376,7 @@
   "fsr4PassMasks": true,
   "fsr4RuntimeEnable": true,
   "fsr4RuntimeSelectionSchemaVersion": 1,
+  "mipBiasScale": 1.0,
   "preferFSRFrameGen": false,
   "presetDLSS": 0,
   "qualityMode": 0,
@@ -1409,7 +1414,7 @@
    "Height": 192,
    "Width": 320
   },
-  "ExteriorEnabled": true,
+  "ExteriorEnabled": false,
   "ExteriorQuality": 2,
   "InteriorCustomSize": {
    "Depth": 90,
