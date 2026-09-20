@@ -381,7 +381,7 @@
   "SelfShadowScale": 1.0,
   "SelfShadowStrength": 1.0,
   "SpecularIndirectMult": 1.0,
-  "SpecularMult": 1.5,
+  "SpecularMult": 0.25,
   "Transmission": 0.10000000149011612
  },
  "Horizon Fix": null,
@@ -398,7 +398,7 @@
   "ExteriorSkyIBLSaturation": 0.3499999940395355,
   "ExteriorSkyIBLScale": 1.0,
   "FogAmount": 0.30000001192092896,
-  "InteriorAmbientFloor": 0.25,
+  "InteriorAmbientFloor": 0.699999988079071,
   "InteriorDALCAmount": 0.0,
   "InteriorEnvIBLSaturation": 1.0,
   "InteriorEnvIBLScale": 1.0,
@@ -476,7 +476,7 @@
  },
  "Linear Lighting": {
   "ambientMult": 1.100000023841858,
-  "enableACEScg": 1,
+  "enableACEScg": 0,
   "enableLinearLighting": 1,
   "vanillaDiffuseColorMult": 1.25
  },
@@ -684,7 +684,7 @@
      0.29899999499320984,
      0.289000004529953
     ],
-    "gameFadeBlend": 1.0,
+    "gameFadeBlend": 0.7580000162124634,
     "gameTintBlend": 0.0,
     "gamma": [
      0.0,
